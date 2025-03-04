@@ -41,7 +41,7 @@
         #sensor-binding-cells = <0>;
         bindings = <&msc SCRL_DOWN>, <&msc SCRL_UP>;
 
-        tap-ms = <30>;
+        tap-ms = <70>;
         label = "SCROLL_ENCODER";
     };
 
@@ -76,7 +76,7 @@
     exlamation_question_mark: exlamation_question_mark {
         compatible = "zmk,behavior-mod-morph";
         label = "EXLAMATION_QUESTION_MARK";
-        bindings = <&kp LS(NUMBER_1)>, <&kp LS(KP_MINUS)>;
+        bindings = <&kp LS(NUMBER_1)>, <&kp MINUS>;
 
         #binding-cells = <0>;
         mods = <(MOD_LSFT)>;
@@ -91,14 +91,14 @@
 
         DEFAULT {
             bindings = <
-&kp BACKSLASH           &kp N1               &kp N2           &kp N3           &kp N4             &kp N5       &kp UP_ARROW     &kp N6       &kp N7             &kp N8           &kp N9            &kp N0               &kp MINUS
+&kp NON_US_BSLH         &kp N1               &kp N2           &kp N3           &kp N4             &kp N5       &kp UP_ARROW     &kp N6       &kp N7             &kp N8           &kp N9            &kp N0               &kp MINUS
 &caps_word              &kp Q                &kp W            &kp F            &kp P              &kp B        &kp DOWN_ARROW   &kp J        &kp L              &kp U            &kp Y             &kp LBKT             &kp SQT
 &sk LEFT_SHIFT          &hml LEFT_CONTROL A  &hml LEFT_ALT R  &hml LEFT_GUI S  &hml LEFT_SHIFT T  &kp G        &kp LEFT_ARROW   &kp M        &hmr LEFT_SHIFT N  &hmr LEFT_GUI E  &hmr LEFT_ALT I   &hmr LEFT_CONTROL O  &kp SEMI
 &mt LEFT_GUI BACKSLASH  &kp Z                &kp X            &kp C            &kp D              &kp V        &kp RIGHT_ARROW  &kp K        &kp H              &kp COMMA        &kp DOT           &kp FSLH             &exlamation_question_mark
 &kp C_MUTE              &kp GRAVE            &kp LS(GRAVE)    &lt 5 ESC        &lt 1 SPACE        &lt 4 TAB    &kp ENTER        &lt 3 ENTER  &lt 2 BACKSPACE    &lt 6 DELETE     &kp LA(NUMBER_8)  &kp LA(NUMBER_9)
             >;
 
-            sensor-bindings = <&inc_dec_kp K_SCROLL_UP K_SCROLL_DOWN>;
+            sensor-bindings = <&scroll_encoder>;
             display-name = "DEFAULT";
         };
 
