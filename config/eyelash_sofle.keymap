@@ -85,16 +85,14 @@
     thumb_layers: thumb_layers {
         compatible = "zmk,behavior-hold-tap";
         label = "THUMB_LAYERS";
-        flavor = "balanced";
+        flavor =
         HRM_BEHAVIOR;
-        tapping-term-ms = <280>;
-        quick-tap-ms = <175>;
+        tapping-term-ms = <HRM_TAPPING_TERM_MS>;
+        quick-tap-ms = <HRM_QUICK_TAP_MS>;
         require-prior-idle-ms = <150>;
         hold-trigger-on-release;
         #binding-cells = <2>;
         bindings = <&mo>, <&kp>;
-
-        hold-trigger-key-positions = <KEYS_R KEYS_T>;
     };
 
     behaviors {
