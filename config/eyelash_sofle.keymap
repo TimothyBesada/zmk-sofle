@@ -30,10 +30,10 @@
 
 // Homerow mods
 
-#define HRM_BEHAVIOR "balanced"
-#define HRM_TAPPING_TERM_MS 280
-#define HRM_REQUIRE_PRIOR_IDLE_MS 150
-#define HRM_QUICK_TAP_MS 175
+#define HRM_BEHAVIOR "tap-preferred"
+#define HRM_TAPPING_TERM_MS 180
+#define HRM_REQUIRE_PRIOR_IDLE_MS 0
+#define HRM_QUICK_TAP_MS 125
 
 / {
     scroll_encoder: scroll_encoder {
@@ -51,7 +51,7 @@
         HRM_BEHAVIOR;
         tapping-term-ms = <HRM_TAPPING_TERM_MS>;
         quick-tap-ms = <HRM_QUICK_TAP_MS>;
-        require-prior-idle-ms = <150>;
+        require-prior-idle-ms = <HRM_REQUIRE_PRIOR_IDLE_MS>;
         hold-trigger-key-positions = <KEYS_R KEYS_T>;
         hold-trigger-on-release;
         #binding-cells = <2>;
@@ -65,7 +65,7 @@
         HRM_BEHAVIOR;
         tapping-term-ms = <HRM_TAPPING_TERM_MS>;
         quick-tap-ms = <HRM_QUICK_TAP_MS>;
-        require-prior-idle-ms = <150>;
+        require-prior-idle-ms = <HRM_REQUIRE_PRIOR_IDLE_MS>;
         hold-trigger-key-positions = <KEYS_L KEYS_T>;
         hold-trigger-on-release;
         #binding-cells = <2>;
@@ -89,13 +89,21 @@
         HRM_BEHAVIOR;
         tapping-term-ms = <HRM_TAPPING_TERM_MS>;
         quick-tap-ms = <HRM_QUICK_TAP_MS>;
-        require-prior-idle-ms = <150>;
+        require-prior-idle-ms = <HRM_REQUIRE_PRIOR_IDLE_MS>;
         hold-trigger-on-release;
         #binding-cells = <2>;
         bindings = <&mo>, <&kp>;
     };
 
     behaviors {
+        skq: sticky_key_quick_release {
+            compatible = "zmk,behavior-sticky-key";
+            #binding-cells = <1>;
+            bindings = <&kp>;
+            release-after-ms = <1000>;
+            quick-release;
+            ignore-modifiers;
+        };
     };
 
     keymap {
@@ -105,7 +113,7 @@
             bindings = <
 &kp NON_US_BSLH         &kp N1               &kp N2           &kp N3               &kp N4                 &kp N5                 &kp UP_ARROW     &kp N6                 &kp N7                     &kp N8                  &kp N9            &kp N0               &kp MINUS
 &caps_word              &kp Q                &kp W            &kp F                &kp P                  &kp B                  &kp DOWN_ARROW   &kp J                  &kp L                      &kp U                   &kp Y             &kp LBKT             &kp SQT
-&sk LEFT_SHIFT          &hml LEFT_CONTROL A  &hml LEFT_ALT R  &hml LEFT_GUI S      &hml LEFT_SHIFT T      &kp G                  &kp LEFT_ARROW   &kp M                  &hmr LEFT_SHIFT N          &hmr LEFT_GUI E         &hmr LEFT_ALT I   &hmr LEFT_CONTROL O  &kp SEMI
+&skq LEFT_SHIFT          &hml LEFT_CONTROL A  &hml LEFT_ALT R  &hml LEFT_GUI S      &hml LEFT_SHIFT T      &kp G                  &kp LEFT_ARROW   &kp M                  &hmr LEFT_SHIFT N          &hmr LEFT_GUI E         &hmr LEFT_ALT I   &hmr LEFT_CONTROL O  &kp SEMI
 &mt LEFT_GUI BACKSLASH  &kp Z                &kp X            &kp C                &kp D                  &kp V                  &kp RIGHT_ARROW  &kp K                  &kp H                      &kp COMMA               &kp DOT           &kp FSLH             &exlamation_question_mark
 &kp C_MUTE              &kp GRAVE            &kp LS(GRAVE)    &thumb_layers 5 ESC  &thumb_layers 1 SPACE  &thumb_layers 4 TAB    &kp ENTER        &thumb_layers 3 ENTER  &thumb_layers 2 BACKSPACE  &thumb_layers 6 DELETE  &kp LA(NUMBER_8)  &kp LA(NUMBER_9)
             >;
