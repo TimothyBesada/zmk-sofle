@@ -31,7 +31,7 @@
 #define HRM_BEHAVIOR "tap-preferred"
 #define HRM_TAPPING_TERM_MS 180
 #define HRM_REQUIRE_PRIOR_IDLE_MS 0
-#define HRM_QUICK_TAP_MS 125
+#define HRM_QUICK_TAP_MS 160
 
 / {
     scroll_encoder: scroll_encoder {
