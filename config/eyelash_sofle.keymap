@@ -156,7 +156,7 @@
         };
 
         right_curly {
-            bindings = <&kp LA(N9)>;
+            bindings = <&kp LA(LS(N9))>;
             key-positions = <34 37>;
             timeout-ms = <50>;
             require-prior-idle-ms = <75>;
@@ -164,7 +164,7 @@
         };
 
         less_than {
-            bindings = <&kp LS(GRAVE)>;
+            bindings = <&kp GRAVE>;
             key-positions = <29 31>;
             timeout-ms = <50>;
             require-prior-idle-ms = <75>;
@@ -381,7 +381,7 @@
 
         string_literal {
             bindings = <&kp LA(EQUAL)>;
-            key-positions = <30 31>;
+            key-positions = <33 34>;
             timeout-ms = <50>;
             require-prior-idle-ms = <75>;
             layers = <0>;
