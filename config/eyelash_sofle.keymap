@@ -117,7 +117,7 @@
 
         left_parenthesis {
             bindings = <&kp LS(N8)>;
-            key-positions = <16 17>;
+            key-positions = <30 29>;
             layers = <0>;
             require-prior-idle-ms = <75>;
             timeout-ms = <50>;
@@ -125,7 +125,7 @@
 
         right_parenthesis {
             bindings = <&kp LS(N9)>;
-            key-positions = <23 24>;
+            key-positions = <34 35>;
             layers = <0>;
             require-prior-idle-ms = <75>;
             timeout-ms = <50>;
@@ -133,7 +133,7 @@
 
         left_bracket {
             bindings = <&kp LA(N8)>;
-            key-positions = <17 15>;
+            key-positions = <30 28>;
             timeout-ms = <50>;
             require-prior-idle-ms = <75>;
             layers = <0>;
@@ -141,7 +141,7 @@
 
         right_bracket {
             bindings = <&kp LA(N9)>;
-            key-positions = <23 25>;
+            key-positions = <34 36>;
             timeout-ms = <50>;
             require-prior-idle-ms = <75>;
             layers = <0>;
@@ -149,7 +149,7 @@
 
         left_curly {
             bindings = <&kp LA(LS(N8))>;
-            key-positions = <17 14>;
+            key-positions = <30 27>;
             timeout-ms = <50>;
             require-prior-idle-ms = <75>;
             layers = <0>;
@@ -157,7 +157,7 @@
 
         right_curly {
             bindings = <&kp LA(N9)>;
-            key-positions = <23 26>;
+            key-positions = <34 37>;
             timeout-ms = <50>;
             require-prior-idle-ms = <75>;
             layers = <0>;
@@ -165,7 +165,7 @@
 
         less_than {
             bindings = <&kp LS(GRAVE)>;
-            key-positions = <16 18>;
+            key-positions = <29 31>;
             timeout-ms = <50>;
             require-prior-idle-ms = <75>;
             layers = <0>;
@@ -173,7 +173,7 @@
 
         greater_than {
             bindings = <&kp LS(GRAVE)>;
-            key-positions = <24 22>;
+            key-positions = <33 35>;
             timeout-ms = <50>;
             require-prior-idle-ms = <75>;
             layers = <0>;
@@ -181,7 +181,7 @@
 
         equal {
             bindings = <&kp LS(N0)>;
-            key-positions = <5 3>;
+            key-positions = <16 18>;
             timeout-ms = <50>;
             require-prior-idle-ms = <75>;
             layers = <0>;
@@ -189,7 +189,7 @@
 
         star {
             bindings = <&kp LS(BACKSLASH)>;
-            key-positions = <17 18>;
+            key-positions = <31 30>;
             timeout-ms = <50>;
             require-prior-idle-ms = <75>;
             layers = <0>;
@@ -197,7 +197,7 @@
 
         quote {
             bindings = <&kp LS(NUMBER_2)>;
-            key-positions = <31 32>;
+            key-positions = <30 29>;
             timeout-ms = <50>;
             require-prior-idle-ms = <75>;
             layers = <0>;
@@ -205,7 +205,7 @@
 
         hash {
             bindings = <&kp LS(NUMBER_3)>;
-            key-positions = <32 30>;
+            key-positions = <41 43>;
             timeout-ms = <50>;
             require-prior-idle-ms = <75>;
             layers = <0>;
@@ -213,7 +213,7 @@
 
         tilde {
             bindings = <&kp RA(RIGHT_BRACKET)>;
-            key-positions = <1 2>;
+            key-positions = <15 14>;
             timeout-ms = <50>;
             require-prior-idle-ms = <75>;
             layers = <0>;
@@ -221,7 +221,7 @@
 
         plus {
             bindings = <&kp MINUS>;
-            key-positions = <3 4>;
+            key-positions = <16 17>;
             timeout-ms = <50>;
             require-prior-idle-ms = <75>;
             layers = <0>;
@@ -229,7 +229,7 @@
 
         forward_slash {
             bindings = <&kp LS(N7)>;
-            key-positions = <4 2>;
+            key-positions = <15 17>;
             timeout-ms = <50>;
             require-prior-idle-ms = <75>;
             layers = <0>;
@@ -237,7 +237,7 @@
 
         backward_slash {
             bindings = <&kp LS(LA(N7))>;
-            key-positions = <2 3>;
+            key-positions = <16 15>;
             timeout-ms = <50>;
             require-prior-idle-ms = <75>;
             layers = <0>;
@@ -245,7 +245,7 @@
 
         one {
             bindings = <&kp NUMBER_1>;
-            key-positions = <43 30>;
+            key-positions = <56 41>;
             timeout-ms = <50>;
             require-prior-idle-ms = <75>;
             layers = <0>;
@@ -253,7 +253,7 @@
 
         two {
             bindings = <&kp NUMBER_2>;
-            key-positions = <43 31>;
+            key-positions = <56 42>;
             timeout-ms = <50>;
             require-prior-idle-ms = <75>;
             layers = <0>;
@@ -261,7 +261,7 @@
 
         three {
             bindings = <&kp NUMBER_3>;
-            key-positions = <43 32>;
+            key-positions = <43 56>;
             timeout-ms = <50>;
             require-prior-idle-ms = <75>;
             layers = <0>;
@@ -269,7 +269,7 @@
 
         four {
             bindings = <&kp NUMBER_4>;
-            key-positions = <43 15>;
+            key-positions = <56 28>;
             timeout-ms = <50>;
             require-prior-idle-ms = <75>;
             layers = <0>;
@@ -277,7 +277,7 @@
 
         five {
             bindings = <&kp N5>;
-            key-positions = <43 16>;
+            key-positions = <56 29>;
             timeout-ms = <50>;
             require-prior-idle-ms = <75>;
             layers = <0>;
@@ -285,7 +285,7 @@
 
         six {
             bindings = <&kp NUMBER_6>;
-            key-positions = <43 17>;
+            key-positions = <56 30>;
             timeout-ms = <50>;
             require-prior-idle-ms = <75>;
             layers = <0>;
@@ -293,7 +293,7 @@
 
         seven {
             bindings = <&kp N7>;
-            key-positions = <43 2>;
+            key-positions = <15 56>;
             timeout-ms = <50>;
             require-prior-idle-ms = <75>;
             layers = <0>;
@@ -301,7 +301,7 @@
 
         eight {
             bindings = <&kp N8>;
-            key-positions = <43 3>;
+            key-positions = <16 56>;
             timeout-ms = <50>;
             require-prior-idle-ms = <75>;
             layers = <0>;
@@ -309,7 +309,7 @@
 
         nine {
             bindings = <&kp N9>;
-            key-positions = <43 4>;
+            key-positions = <56 17>;
             timeout-ms = <50>;
             require-prior-idle-ms = <75>;
             layers = <0>;
@@ -317,7 +317,7 @@
 
         zero {
             bindings = <&kp N0>;
-            key-positions = <43 5>;
+            key-positions = <18 56>;
             timeout-ms = <50>;
             require-prior-idle-ms = <75>;
             layers = <0>;
@@ -325,7 +325,7 @@
 
         underscore {
             bindings = <&kp LS(FSLH)>;
-            key-positions = <37 38>;
+            key-positions = <48 47>;
             timeout-ms = <50>;
             require-prior-idle-ms = <75>;
             layers = <0>;
@@ -333,7 +333,7 @@
 
         colon {
             bindings = <&kp LS(PERIOD)>;
-            key-positions = <38 39>;
+            key-positions = <49 48>;
             timeout-ms = <50>;
             require-prior-idle-ms = <75>;
             layers = <0>;
@@ -341,7 +341,7 @@
 
         semi_colon {
             bindings = <&kp LS(COMMA)>;
-            key-positions = <39 37>;
+            key-positions = <49 47>;
             timeout-ms = <50>;
             require-prior-idle-ms = <75>;
             layers = <0>;
@@ -349,7 +349,7 @@
 
         at_sign {
             bindings = <&kp LA(NUMBER_2)>;
-            key-positions = <30 31>;
+            key-positions = <42 41>;
             timeout-ms = <50>;
             require-prior-idle-ms = <75>;
             layers = <0>;
@@ -357,7 +357,7 @@
 
         ampersand {
             bindings = <&kp LS(NUMBER_6)>;
-            key-positions = <32 33>;
+            key-positions = <44 43>;
             timeout-ms = <50>;
             require-prior-idle-ms = <75>;
             layers = <0>;
@@ -365,7 +365,7 @@
 
         percent {
             bindings = <&kp LS(N5)>;
-            key-positions = <32 29>;
+            key-positions = <40 43>;
             timeout-ms = <50>;
             require-prior-idle-ms = <75>;
             layers = <0>;
@@ -373,7 +373,7 @@
 
         pipe {
             bindings = <&kp LA(N7)>;
-            key-positions = <33 31>;
+            key-positions = <44 42>;
             timeout-ms = <50>;
             require-prior-idle-ms = <75>;
             layers = <0>;
@@ -381,7 +381,7 @@
 
         string_literal {
             bindings = <&kp LA(EQUAL)>;
-            key-positions = <17 18>;
+            key-positions = <30 31>;
             timeout-ms = <50>;
             require-prior-idle-ms = <75>;
             layers = <0>;
