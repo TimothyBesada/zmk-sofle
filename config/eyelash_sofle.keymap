@@ -31,7 +31,7 @@
 
 #define HRM_BEHAVIOR "balanced"
 #define HRM_TAPPING_TERM_MS 280
-#define HRM_REQUIRE_PRIOR_IDLE_MS 150
+#define HRM_REQUIRE_PRIOR_IDLE_MS 120
 #define HRM_QUICK_TAP_MS 175
 
 / {

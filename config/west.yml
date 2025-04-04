@@ -20,7 +20,7 @@ manifest:
       remote: gpeye
       revision: main 
     - name: zmk
-      remote: zmkfirmware
+      remote: urob
       revision: main
       import: app/west.yml
     - name: zmk-helpers
