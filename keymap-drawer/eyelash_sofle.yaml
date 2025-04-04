@@ -456,105 +456,105 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
 combos:
-- p: [16, 17]
+- p: [30, 29]
   k: Sft+8
   l: [DEFAULT]
-- p: [23, 24]
+- p: [34, 35]
   k: Sft+9
   l: [DEFAULT]
-- p: [17, 15]
+- p: [30, 28]
   k: Alt+8
   l: [DEFAULT]
-- p: [23, 25]
+- p: [34, 36]
   k: Alt+9
   l: [DEFAULT]
-- p: [17, 14]
+- p: [30, 27]
   k: Alt+Sft+8
   l: [DEFAULT]
-- p: [23, 26]
+- p: [34, 37]
   k: Alt+9
   l: [DEFAULT]
+- p: [29, 31]
+  k: Sft+`
+  l: [DEFAULT]
+- p: [33, 35]
+  k: Sft+`
+  l: [DEFAULT]
 - p: [16, 18]
-  k: Sft+`
-  l: [DEFAULT]
-- p: [24, 22]
-  k: Sft+`
-  l: [DEFAULT]
-- p: [5, 3]
   k: Sft+0
   l: [DEFAULT]
-- p: [17, 18]
+- p: [31, 30]
   k: Sft+\
   l: [DEFAULT]
-- p: [31, 32]
+- p: [30, 29]
   k: Sft+2
   l: [DEFAULT]
-- p: [32, 30]
+- p: [41, 43]
   k: Sft+3
   l: [DEFAULT]
-- p: [1, 2]
+- p: [15, 14]
   k: AltGr+]
   l: [DEFAULT]
-- p: [3, 4]
+- p: [16, 17]
   k: {t: '-', s: _}
   l: [DEFAULT]
-- p: [4, 2]
+- p: [15, 17]
   k: Sft+7
   l: [DEFAULT]
-- p: [2, 3]
+- p: [16, 15]
   k: Sft+Alt+7
   l: [DEFAULT]
-- p: [43, 30]
+- p: [56, 41]
   k: '1'
   l: [DEFAULT]
-- p: [43, 31]
+- p: [56, 42]
   k: '2'
   l: [DEFAULT]
-- p: [43, 32]
+- p: [43, 56]
   k: '3'
   l: [DEFAULT]
-- p: [43, 15]
+- p: [56, 28]
   k: '4'
   l: [DEFAULT]
-- p: [43, 16]
+- p: [56, 29]
   k: {t: '5', s: '%'}
   l: [DEFAULT]
-- p: [43, 17]
+- p: [56, 30]
   k: '6'
   l: [DEFAULT]
-- p: [43, 2]
+- p: [15, 56]
   k: {t: '7', s: '&'}
   l: [DEFAULT]
-- p: [43, 3]
+- p: [16, 56]
   k: {t: '8', s: '*'}
   l: [DEFAULT]
-- p: [43, 4]
+- p: [56, 17]
   k: {t: '9', s: (}
   l: [DEFAULT]
-- p: [43, 5]
+- p: [18, 56]
   k: {t: '0', s: )}
   l: [DEFAULT]
-- p: [37, 38]
+- p: [48, 47]
   k: Sft+/
   l: [DEFAULT]
-- p: [38, 39]
+- p: [49, 48]
   k: Sft+.
   l: [DEFAULT]
-- p: [39, 37]
+- p: [49, 47]
   k: Sft+,
   l: [DEFAULT]
-- p: [30, 31]
+- p: [42, 41]
   k: Alt+2
   l: [DEFAULT]
-- p: [32, 33]
+- p: [44, 43]
   k: Sft+6
   l: [DEFAULT]
-- p: [32, 29]
+- p: [40, 43]
   k: Sft+5
   l: [DEFAULT]
-- p: [33, 31]
+- p: [44, 42]
   k: Alt+7
   l: [DEFAULT]
-- p: [17, 18]
+- p: [30, 31]
   k: Alt+=
   l: [DEFAULT]
