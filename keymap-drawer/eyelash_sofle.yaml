@@ -472,10 +472,10 @@ combos:
   k: Alt+Sft+8
   l: [DEFAULT]
 - p: [34, 37]
-  k: Alt+9
+  k: Alt+Sft+9
   l: [DEFAULT]
 - p: [29, 31]
-  k: Sft+`
+  k: {t: '`', s: '~'}
   l: [DEFAULT]
 - p: [33, 35]
   k: Sft+`
@@ -555,6 +555,6 @@ combos:
 - p: [44, 42]
   k: Alt+7
   l: [DEFAULT]
-- p: [30, 31]
+- p: [33, 34]
   k: Alt+=
   l: [DEFAULT]
