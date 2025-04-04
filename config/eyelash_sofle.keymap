@@ -243,7 +243,7 @@
             layers = <0>;
         };
 
-        one {
+        n_1 {
             bindings = <&kp NUMBER_1>;
             key-positions = <56 41>;
             timeout-ms = <50>;
@@ -251,7 +251,7 @@
             layers = <0>;
         };
 
-        two {
+        n_2 {
             bindings = <&kp NUMBER_2>;
             key-positions = <56 42>;
             timeout-ms = <50>;
@@ -259,7 +259,7 @@
             layers = <0>;
         };
 
-        three {
+        n_3 {
             bindings = <&kp NUMBER_3>;
             key-positions = <43 56>;
             timeout-ms = <50>;
@@ -267,7 +267,7 @@
             layers = <0>;
         };
 
-        four {
+        n_4 {
             bindings = <&kp NUMBER_4>;
             key-positions = <56 28>;
             timeout-ms = <50>;
@@ -275,7 +275,7 @@
             layers = <0>;
         };
 
-        five {
+        n_5 {
             bindings = <&kp N5>;
             key-positions = <56 29>;
             timeout-ms = <50>;
@@ -283,7 +283,7 @@
             layers = <0>;
         };
 
-        six {
+        n_6 {
             bindings = <&kp NUMBER_6>;
             key-positions = <56 30>;
             timeout-ms = <50>;
@@ -291,7 +291,7 @@
             layers = <0>;
         };
 
-        seven {
+        n_7 {
             bindings = <&kp N7>;
             key-positions = <15 56>;
             timeout-ms = <50>;
@@ -299,7 +299,7 @@
             layers = <0>;
         };
 
-        eight {
+        n_8 {
             bindings = <&kp N8>;
             key-positions = <16 56>;
             timeout-ms = <50>;
@@ -307,7 +307,7 @@
             layers = <0>;
         };
 
-        nine {
+        n_9 {
             bindings = <&kp N9>;
             key-positions = <56 17>;
             timeout-ms = <50>;
@@ -315,7 +315,7 @@
             layers = <0>;
         };
 
-        zero {
+        n_0 {
             bindings = <&kp N0>;
             key-positions = <18 56>;
             timeout-ms = <50>;
@@ -380,7 +380,7 @@
         };
 
         string_literal {
-            bindings = <&kp LA(EQUAL)>;
+            bindings = <&kp LS(EQUAL)>;
             key-positions = <33 34>;
             timeout-ms = <50>;
             require-prior-idle-ms = <75>;
