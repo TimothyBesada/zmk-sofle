@@ -29,10 +29,10 @@
 
 // Homerow mods
 
-#define HRM_BEHAVIOR "hold-preferred"
-#define HRM_TAPPING_TERM_MS 200
-#define HRM_REQUIRE_PRIOR_IDLE_MS 120
-#define HRM_QUICK_TAP_MS 175
+#define HRM_BEHAVIOR "tap-preferred"
+#define HRM_TAPPING_TERM_MS 180
+#define HRM_REQUIRE_PRIOR_IDLE_MS 100
+#define HRM_QUICK_TAP_MS 160
 
 / {
     scroll_encoder: scroll_encoder {
