@@ -556,5 +556,5 @@ combos:
   k: Alt+7
   l: [DEFAULT]
 - p: [33, 34]
-  k: Alt+=
+  k: Sft+=
   l: [DEFAULT]
